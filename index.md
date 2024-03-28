@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "ynqq个人博客"
-  text: "ynqq个人博客"
-  tagline: My great project tagline
+  text: ""
+  tagline: 写bug过程中的点点滴滴
   actions:
     - theme: brand
       text: Markdown Examples
