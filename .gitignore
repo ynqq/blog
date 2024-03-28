@@ -18,5 +18,5 @@ pnpm-debug.log*
 *.sw?
 
 # Vitepress
-.vitepress/cache/
+.vitepress/cache
 .vitepress/dist
