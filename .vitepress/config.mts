@@ -5,6 +5,7 @@ export default defineConfig({
   base: "/blog",
   title: "ynqq个人博客",
   description: "ynqq个人博客",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,7 +15,6 @@ export default defineConfig({
       { text: "微前端", link: "/views/problem/vue/" },
       { text: "bug一生", link: "/views/problem/vue/" },
     ],
-
     sidebar: {
       "/views/share/vue/": [
         {
