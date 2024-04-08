@@ -1,3 +1,11 @@
+/*
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2024-04-07 11:49:31
+ * @LastEditors: jiahui.qin
+ * @LastEditTime: 2024-04-08 15:26:55
+ * @FilePath: \blog\.vitepress\config.mts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
@@ -12,8 +20,8 @@ export default defineConfig({
       { text: "Vue", link: "/views/share/vue/" },
       { text: "React", link: "/views/share/react/" },
       { text: "ReactNative", link: "/views/share/reactNative/" },
-      { text: "微前端", link: "/views/problem/vue/" },
-      { text: "bug一生", link: "/views/problem/vue/" },
+      { text: "微前端", link: "/views/share/micro/" },
+      { text: "bug一生", link: "/views/problem/" },
     ],
     sidebar: {
       "/views/share/vue/": [
@@ -68,15 +76,29 @@ export default defineConfig({
           ],
         },
       ],
-      "/views/problem/vue/": [
+      "/views/problem/": [
         {
-          text: "Examples",
+          text: "react-naive",
           items: [
-            { text: "Markdown Examples", link: "/markdown-examples" },
-            { text: "Runtime API Examples", link: "/api-examples" },
+            { text: "adb", link: "/views/problem/react-native/adb/" },
           ],
         },
+        // {
+        //   text: "代码规范",
+        //   items: [
+        //     { text: "husky", link: "/views/problem/formatter/husky/" },
+        //   ],
+        // },
       ],
+      "/views/share/micro/": [
+        {
+          text: "微前端",
+          collapsed: false,
+          items: [
+            {text: "无界", link: "/views/share/micro/wujie/index.md"}
+          ]
+        }
+      ]
     },
 
     socialLinks: [
