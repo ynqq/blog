@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2024-04-07 11:49:31
  * @LastEditors: jiahui.qin
- * @LastEditTime: 2024-04-08 15:26:55
+ * @LastEditTime: 2024-04-08 16:03:21
  * @FilePath: \blog\.vitepress\config.mts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -81,6 +81,7 @@ export default defineConfig({
           text: "react-naive",
           items: [
             { text: "adb", link: "/views/problem/react-native/adb/" },
+            { text: "keystore", link: "/views/problem/react-native/keystore/" },
           ],
         },
         // {
