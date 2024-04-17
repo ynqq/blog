@@ -7,19 +7,14 @@ hero:
   text: ""
   tagline: 写bug过程中的点点滴滴
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Vue
+      link: /views/share/vue/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 技术分享
+    details: 无聊的时候写一写
+  - title: bug
+    details: 知道了，下次还出！
 ---
 
