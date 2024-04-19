@@ -21,6 +21,7 @@ export default defineConfig({
       { text: "React", link: "/views/share/react/" },
       { text: "ReactNative", link: "/views/share/reactNative/" },
       { text: "微前端", link: "/views/share/micro/" },
+      { text: "Vscode", link: "/views/share/vscode/" },
       { text: "bug一生", link: "/views/problem/" },
     ],
     sidebar: {
@@ -105,6 +106,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             {text: "无界", link: "/views/share/micro/wujie/index.md"}
+          ]
+        }
+      ],
+      "/views/share/vscode/": [
+        {
+          text: "Vscode",
+          collapsed: false,
+          items: [
+            {text: "开发一个简单的插件", link: "/views/share/vscode/toFile/index.md"}
           ]
         }
       ]
